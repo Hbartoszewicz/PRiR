@@ -31,7 +31,7 @@ int main(int argc, char **argv)
     }
     else
     {
-        printf("%f\n", wynik);
+        printf("Przyblizenie PI = %f\n", wynik);
     }
     
     MPI_Finalize();
